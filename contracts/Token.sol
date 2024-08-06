@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("win","wn"){} 
+    constructor()ERC20("alpha","alp"){} 
 
     function mint100tokens() public {
         _mint(msg.sender,100*10**18);
